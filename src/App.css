@@ -1,0 +1,85 @@
+.Header{
+justify-content: space-between ;
+align-items: center;
+display: flex;
+margin: '20px';
+flex-direction: row;
+width: 100vw;
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: 50px;
+    
+    
+}
+
+.darkapp{
+    background-color:bisque;
+}
+.ligthapp{
+    background-color: black;
+}
+.info{
+    text-align: center;
+    color: red;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.logos{
+  position: absolute;
+   gap: 10px;
+   display: flex;
+    flex-direction: row;
+    margin-left: 80%;
+    width: 30px;
+    height: 30px;
+   
+}
+.logo-dh{
+   position: absolute;
+    background-color: aliceblue;
+   display: flex;
+   
+}
+.conteinercard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.favs{
+    width: 100vw;
+    height: 100vh;
+  
+
+}
